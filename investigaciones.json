@@ -1,0 +1,147 @@
+{
+    "investigaciones": [
+      {
+        "id": 1,
+        "titulo": "Sistema Básico de Gestión de Deudas",
+        "contenido": "Solución en C++ para registro manual de deudas en moneda local y dólares con conversión diaria según tasa BCV.",
+        "contenidoCompleto": [
+          {
+            "tipo": "fundamentos",
+            "datos": {
+              "titulo": "Básicos del Sistema",
+              "texto": "Registro manual de deudas con conversión diaria según tasa ingresada por el usuario.",
+              "principios": [
+                "Funcionamiento en Windows 7 sin requerimientos especiales",
+                "Doble registro en Bs. y USD",
+                "Almacenamiento en archivos de texto plano",
+                "Interfaz de consola simple"
+              ]
+            }
+          },
+          {
+            "tipo": "marcoTrabajo",
+            "datos": {
+              "titulo": "Proceso de Desarrollo",
+              "fases": [
+                {
+                  "nombre": "Configuración del Entorno",
+                  "duracion": "1 semana",
+                  "actividades": [
+                    "Creación de VM con Windows 7 para pruebas",
+                    "Configuración básica de Code::Blocks",
+                    "Primeras reuniones con la dueña"
+                  ]
+                },
+                {
+                  "nombre": "Desarrollo Esencial",
+                  "duracion": "4 semanas",
+                  "actividades": [
+                    "Menú principal con opciones básicas",
+                    "Sistema de registro manual de deudas",
+                    "Visualización de totales por moneda"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "tipo": "minutograma",
+            "datos": {
+              "titulo": "Cronograma Real",
+              "actividades": [
+                "Semana 1: Reuniones para entender libretas físicas",
+                "Semana 2-3: Desarrollo núcleo del sistema (1,250 LDC)",
+                "Semana 4: Pruebas en VM y ajustes finales"
+              ],
+              "metricas": [
+                "Líneas de código: 1,302",
+                "Archivos de datos: 2 (.txt y .dat)",
+                "Errores críticos solucionados: 11",
+                "Tiempo carga promedio: Instantáneo"
+              ],
+              "detallesClave": [
+                "Reto principal: Adaptar procesos manuales a digital",
+                "Solución clave: Formato de registro simple",
+                "Herramientas: Code::Blocks y Bloc de Notas"
+              ]
+            }
+          },
+          {
+            "tipo": "gestionRiesgos",
+            "datos": {
+              "titulo": "Desafíos Enfrentados",
+              "matriz": [
+                {
+                  "riesgo": "Errores en entrada manual de datos",
+                  "probabilidad": "Alta",
+                  "impacto": "Medio",
+                  "mitigacion": "Validaciones básicas de formato"
+                },
+                {
+                  "riesgo": "Confusión monedas",
+                  "probabilidad": "Media",
+                  "impacto": "Alto",
+                  "mitigacion": "Columnas separadas y totales claros"
+                }
+              ]
+            }
+          },
+          {
+            "tipo": "procesoCompleto",
+            "datos": {
+              "titulo": "Flujo de Trabajo Real",
+              "etapas": [
+                {
+                  "nombre": "1. Captura de Requisitos",
+                  "duracion": "5 días",
+                  "actividades": [
+                    "Fotocopiado de hojas físicas de registro",
+                    "Listado de campos esenciales",
+                    "Definición de formato de archivo"
+                  ]
+                },
+                {
+                  "nombre": "2. Programación Básica",
+                  "duracion": "15 días",
+                  "actividades": [
+                    "Menú principal con switch-case",
+                    "Función de agregar deuda",
+                    "Visualización de listado completo"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "tipo": "mejoresPracticas",
+            "datos": {
+              "titulo": "Aprendizajes Obtenidos",
+              "lista": [
+                "Importancia de backups diarios",
+                "Validación de entradas numéricas",
+                "Documentación en comentarios"
+              ],
+              "metricas": [
+                "Tiempo registro por cliente: reducido de 5min a 30seg",
+                "Errores de cálculo: reducidos 95%"
+              ]
+            }
+          },
+          {
+            "tipo": "casoExito",
+            "datos": {
+              "titulo": "Implementación Exitosa",
+              "empresa": "Pequeño Comercio Local",
+              "resultados": [
+                "Organización completa de 287 deudas históricas",
+                "Visualización clara de deudas en ambas monedas",
+                "Cierre contable mensual simplificado"
+              ],
+              "tecnologias": ["C++ estándar", "Windows 7 básico"]
+            }
+          }
+        ],
+        "imagen": "./R.png"
+      }
+    ]
+  }

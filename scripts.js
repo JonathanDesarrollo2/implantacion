@@ -156,25 +156,26 @@ const crearLista = (items) => `
 // Componentes actualizados
 const Componentes = {
   tarjeta: ({ imagen, titulo, contenido, id }) => `
-    <article class="group/card bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 overflow-hidden border-2 border-emerald-100">
-      <div class="flex flex-col md:flex-row">
-        <img src="${imagen}" alt="${titulo}" 
-            class="w-full md:w-1/3 h-80 object-cover object-center border-r-2 border-emerald-50">
-        <div class="p-6 md:p-8 flex-1">
-          <h2 class="text-2xl font-bold text-gray-800 mb-4 font-serif">${titulo}</h2>
-          <p class="text-gray-600 mb-6 leading-relaxed">${contenido}</p>
+  <article class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden h-full transform hover:-translate-y-1">
+      <div class="relative h-48 overflow-hidden">
+          <div class="absolute inset-0 bg-gradient-to-t from-[var(--primary)/40] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
+          <img src="${imagen}" alt="${titulo}" 
+              class="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-105">
+      </div>
+      <div class="p-6 relative z-20">
+          <h3 class="text-xl font-semibold text-slate-800 mb-3 group-hover:text-[var(--primary)] transition-colors">${titulo}</h3>
+          <p class="text-slate-600 mb-4 line-clamp-3">${contenido}</p>
           <a href="detalle.html?id=${id}" 
-              class="inline-flex items-center text-emerald-600 hover:text-emerald-800 font-medium transition-colors"
-              aria-label="Ver detalles de ${titulo}">
-              Explorar metodología
-              <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
+              class="inline-flex items-center text-[var(--primary)] hover:text-[var(--secondary)] font-medium transition-colors">
+              Ver análisis
+              <svg class="w-4 h-4 ml-2 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
               </svg>
           </a>
-        </div>
       </div>
-    </article>
-  `,
+  </article>
+`,
+
 
   timeline: items => `
     <div class="relative pl-8 border-l-4 border-emerald-200 space-y-8">
