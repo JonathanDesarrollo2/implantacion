@@ -1,147 +1,392 @@
 {
-    "investigaciones": [
-      {
-        "id": 1,
-        "titulo": "Sistema Básico de Gestión de Deudas",
-        "contenido": "Solución en C++ para registro manual de deudas en moneda local y dólares con conversión diaria según tasa BCV.",
-        "contenidoCompleto": [
-          {
-            "tipo": "fundamentos",
-            "datos": {
-              "titulo": "Básicos del Sistema",
-              "texto": "Registro manual de deudas con conversión diaria según tasa ingresada por el usuario.",
-              "principios": [
-                "Funcionamiento en Windows 7 sin requerimientos especiales",
-                "Doble registro en Bs. y USD",
-                "Almacenamiento en archivos de texto plano",
-                "Interfaz de consola simple"
-              ]
-            }
-          },
-          {
-            "tipo": "marcoTrabajo",
-            "datos": {
-              "titulo": "Proceso de Desarrollo",
-              "fases": [
-                {
-                  "nombre": "Configuración del Entorno",
-                  "duracion": "1 semana",
-                  "actividades": [
-                    "Creación de VM con Windows 7 para pruebas",
-                    "Configuración básica de Code::Blocks",
-                    "Primeras reuniones con la dueña"
-                  ]
-                },
-                {
-                  "nombre": "Desarrollo Esencial",
-                  "duracion": "4 semanas",
-                  "actividades": [
-                    "Menú principal con opciones básicas",
-                    "Sistema de registro manual de deudas",
-                    "Visualización de totales por moneda"
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "tipo": "minutograma",
-            "datos": {
-              "titulo": "Cronograma Real",
-              "actividades": [
-                "Semana 1: Reuniones para entender libretas físicas",
-                "Semana 2-3: Desarrollo núcleo del sistema (1,250 LDC)",
-                "Semana 4: Pruebas en VM y ajustes finales"
-              ],
-              "metricas": [
-                "Líneas de código: 1,302",
-                "Archivos de datos: 2 (.txt y .dat)",
-                "Errores críticos solucionados: 11",
-                "Tiempo carga promedio: Instantáneo"
-              ],
-              "detallesClave": [
-                "Reto principal: Adaptar procesos manuales a digital",
-                "Solución clave: Formato de registro simple",
-                "Herramientas: Code::Blocks y Bloc de Notas"
-              ]
-            }
-          },
-          {
-            "tipo": "gestionRiesgos",
-            "datos": {
-              "titulo": "Desafíos Enfrentados",
-              "matriz": [
-                {
-                  "riesgo": "Errores en entrada manual de datos",
-                  "probabilidad": "Alta",
-                  "impacto": "Medio",
-                  "mitigacion": "Validaciones básicas de formato"
-                },
-                {
-                  "riesgo": "Confusión monedas",
-                  "probabilidad": "Media",
-                  "impacto": "Alto",
-                  "mitigacion": "Columnas separadas y totales claros"
-                }
-              ]
-            }
-          },
-          {
-            "tipo": "procesoCompleto",
-            "datos": {
-              "titulo": "Flujo de Trabajo Real",
-              "etapas": [
-                {
-                  "nombre": "1. Captura de Requisitos",
-                  "duracion": "5 días",
-                  "actividades": [
-                    "Fotocopiado de hojas físicas de registro",
-                    "Listado de campos esenciales",
-                    "Definición de formato de archivo"
-                  ]
-                },
-                {
-                  "nombre": "2. Programación Básica",
-                  "duracion": "15 días",
-                  "actividades": [
-                    "Menú principal con switch-case",
-                    "Función de agregar deuda",
-                    "Visualización de listado completo"
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "tipo": "mejoresPracticas",
-            "datos": {
-              "titulo": "Aprendizajes Obtenidos",
-              "lista": [
-                "Importancia de backups diarios",
-                "Validación de entradas numéricas",
-                "Documentación en comentarios"
-              ],
-              "metricas": [
-                "Tiempo registro por cliente: reducido de 5min a 30seg",
-                "Errores de cálculo: reducidos 95%"
-              ]
-            }
-          },
-          {
-            "tipo": "casoExito",
-            "datos": {
-              "titulo": "Implementación Exitosa",
-              "empresa": "Pequeño Comercio Local",
-              "resultados": [
-                "Organización completa de 287 deudas históricas",
-                "Visualización clara de deudas en ambas monedas",
-                "Cierre contable mensual simplificado"
-              ],
-              "tecnologias": ["C++ estándar", "Windows 7 básico"]
-            }
+  "investigaciones": [
+    {
+      "id": 1,
+      "titulo": "Sistema Avanzado de Gestión Financiera",
+      "contenido": "Solución completa para gestión de deudas con reporting avanzado y análisis financiero integrado",
+      "contenidoCompleto": [
+        {
+          "tipo": "fundamentos",
+          "datos": {
+            "titulo": "Arquitectura del Sistema",
+            "texto": "Sistema modular diseñado para escalabilidad y precisión financiera:",
+            "principios": [
+              "Multiplataforma (Windows/Linux/MacOS)",
+              "Doble contabilidad automática (Bs/USD)",
+              "Sistema de backups automatizados",
+              "Interfaz CLI/Web responsive"
+            ]
           }
-        ],
-        "imagen": "./R.png"
-      }
-    ]
-  }
+        },
+        {
+          "tipo": "marcoTrabajo",
+          "datos": {
+            "titulo": "Metodología de Desarrollo",
+            "fases": [
+              {
+                "nombre": "Fase 1: Ingeniería de Requisitos",
+                "duracion": "1 semana",
+                "actividades": [
+                  "Entrevistas con stakeholders",
+                  "Modelado BPMN de procesos actuales",
+                  "Definición de KPI clave",
+                  "Prototipado rápido en Figma"
+                ]
+              },
+              {
+                "nombre": "Fase 2: Desarrollo Core",
+                "duracion": "3 semanas",
+                "actividades": [
+                  "Implementación módulo de conversión monetaria",
+                  "Desarrollo de API REST para integraciones",
+                  "Sistema de reporting en tiempo real",
+                  "Módulo de seguridad (RBAC)"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "minutograma",
+          "datos": {
+            "titulo": "Cronograma Detallado",
+            "actividades": [
+              "Semana 1: Diseño arquitectura y modelo de datos",
+              "Semana 2-3: Desarrollo core del sistema (2,150 LDC)",
+              "Semana 4: Implementación sistema de alertas y notificaciones"
+            ],
+            "metricas": [
+              "Líneas de código: 2,450",
+              "Test coverage: 85%",
+              "Endpoints API: 12",
+              "Tiempo respuesta API: <300ms"
+            ],
+            "detallesClave": [
+              "Reto principal: Sincronización multi-moneda",
+              "Solución clave: Microservicio de tasas BCV",
+              "Stack: C++17, Python3.11, PostgreSQL"
+            ]
+          }
+        },
+        {
+          "tipo": "gestionRiesgos",
+          "datos": {
+            "titulo": "Análisis de Riesgos",
+            "matriz": [
+              {
+                "riesgo": "Desactualización de tasas BCV",
+                "probabilidad": "Media",
+                "impacto": "Crítico",
+                "mitigacion": "Integración con API oficial BCV"
+              },
+              {
+                "riesgo": "Pérdida de datos",
+                "probabilidad": "Baja",
+                "impacto": "Alto",
+                "mitigacion": "Backups incrementales diarios"
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "procesoCompleto",
+          "datos": {
+            "titulo": "Flujo de Desarrollo",
+            "etapas": [
+              {
+                "nombre": "1. Modelado de Datos",
+                "duracion": "3 días",
+                "actividades": [
+                  "Diseño ERD con relaciones complejas",
+                  "Normalización hasta 3FN",
+                  "Definición de constraints",
+                  "Optimización de índices"
+                ]
+              },
+              {
+                "nombre": "2. Desarrollo Backend",
+                "duracion": "12 días",
+                "actividades": [
+                  "Implementación CRUD completo",
+                  "Sistema de auditoría de cambios",
+                  "API REST documentada (OpenAPI 3.0)",
+                  "Integración continua con GitHub Actions"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "mejoresPracticas",
+          "datos": {
+            "titulo": "Lecciones Aprendidas",
+            "lista": [
+              "Importancia de ACID en transacciones financieras",
+              "Validación de entradas a nivel de base de datos",
+              "Versionado semántico de APIs"
+            ],
+            "metricas": [
+              "Tiempo generación reportes: reducido de 2h a 5min",
+              "Exactitud cálculos: 99.99%"
+            ]
+          }
+        },
+        {
+          "tipo": "casoExito",
+          "datos": {
+            "titulo": "Implementación en Cadena de Retail",
+            "empresa": "Distribuidora Nacional",
+            "resultados": [
+              "Gestión centralizada de 15,000+ deudas",
+              "Integración con sistema contable SAP",
+              "Reducción de errores humanos en 98%"
+            ],
+            "tecnologias": ["C++20", "PostgreSQL 14", "Debian 11"]
+          }
+        },
+        {
+          "tipo": "conceptosBD",
+          "datos": {
+            "titulo": "Fundamentos de Bases de Datos",
+            "items": [
+              "ACID: Atomicidad, Consistencia, Aislamiento, Durabilidad",
+              "Normalización: Proceso para eliminar redundancias",
+              "Índices: Mejora rendimiento en consultas frecuentes",
+              "Transacciones: Grupos de operaciones atómicas",
+              "Replicación: Mantener copias sincronizadas"
+            ]
+          }
+        }
+      ],
+      "imagen": "./R.png"
+    },{
+      "id": 2,
+      "titulo": "Sistema de Gestión de Deudas con Kanban",
+      "contenido": "Plataforma para seguimiento de pagos y tasas con visualización ágil",
+      "contenidoCompleto": [
+        {
+          "tipo": "fundamentos",
+          "datos": {
+            "titulo": "Conceptos Básicos de Implementación",
+            "texto": "Implementar un sistema es como seguir una receta de cocina: necesitas ingredientes (datos), pasos claros (procesos) y revisar mientras avanzas (pruebas). Sirve para transformar una idea en algo real que funcione correctamente.",
+            "principios": [
+              "Empezar con objetivos claros y simples",
+              "Dividir el trabajo en partes pequeñas",
+              "Probar cada función antes de seguir",
+              "Permitir ajustes durante el proceso"
+            ]
+          }
+        },
+        {
+          "tipo": "fundamentos",
+          "datos": {
+            "titulo": "Qué es una Base de Datos",
+            "texto": "Es como un archivero digital donde guardas información organizada. Por ejemplo: clientes, pagos y tasas. Permite encontrar, actualizar y analizar datos fácilmente.",
+            "principios": [
+              "Guarda registros de forma permanente",
+              "Evita duplicar información",
+              "Permite hacer cálculos automáticos",
+              "Protege la privacidad de los datos"
+            ]
+          }
+        },{
+          "tipo": "kanban",
+          "datos": {
+            "titulo": "Plan de Desarrollo Paso a Paso",
+            "semanas": 12,
+            "columnas": [
+              {
+                "nombre": "Planificación (2 semanas)",
+                "tareas": [
+                  "Listar funciones necesarias",
+                  "Diseñar base de datos",
+                  "Elegir herramientas principales",
+                  "Hacer cronograma"
+                ]
+              },
+              {
+                "nombre": "Construcción (6 semanas)", 
+                "tareas": [
+                  "Crear pantalla principal",
+                  "Desarrollar sistema de pagos",
+                  "Conectar con base de datos",
+                  "Hacer calculadora de tasas"
+                ]
+              },
+              {
+                "nombre": "Pruebas (3 semanas)",
+                "tareas": [
+                  "Revisar seguridad",
+                  "Probar con datos reales",
+                  "Corregir errores",
+                  "Optimizar velocidad"
+                ]
+              },
+              {
+                "nombre": "Lanzamiento (1 semana)",
+                "tareas": [
+                  "Instalar en servidores",
+                  "Entrenar usuarios",
+                  "Hacer manual de uso",
+                  "Monitorizar primeros días"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "tipo": "database",
+          "datos": {
+            "titulo": "Modelo de Gestión de Deudas",
+            "tablas": [
+              {
+                "nombre": "Deuda",
+                "campos": [
+                  "IdDeuda UUID PRIMARY KEY",
+                  "IdCliente UUID REFERENCES Clientes",
+                  "Fecha DATE DEFAULT CURRENT_DATE",
+                  "MontoDls DECIMAL(10,2)",
+                  "IdTasa UUID REFERENCES Tasas",
+                  "Estado VARCHAR(20) DEFAULT 'Pendiente'"
+                ]
+              },
+              {
+                "nombre": "Clientes",
+                "campos": [
+                  "IdCliente UUID PRIMARY KEY",
+                  "Nombre VARCHAR(100) NOT NULL",
+                  "Telefono VARCHAR(15)",
+                  "Correo VARCHAR(100) UNIQUE",
+                  "HistorialCrediticio VARCHAR(50)"
+                ]
+              },
+              {
+                "nombre": "Tasas",
+                "campos": [
+                  "IdTasa UUID PRIMARY KEY",
+                  "Tasa DECIMAL(5,2) NOT NULL",
+                  "Moneda VARCHAR(3) DEFAULT 'USD'"
+                ]
+              }
+            ],
+            "relaciones": [
+              "Cada deuda está vinculada a un cliente",
+              "Cada tasa aplica a múltiples deudas",
+              "Historial: Registro de cambios en estados",
+              "Cálculo automático: MontoDls = Monto / Tasa"
+            ]
+          }
+        },
+        {
+          "tipo": "implementacion",
+          "datos": {
+            "titulo": "Pasos para Implementar",
+            "pasos": [
+              " Configurar servidores básicos",
+              " Crear estructura inicial de base de datos",
+              " Desarrollar interfaz para registrar pagos",
+              " Conectar con sistema de tasas de cambio",
+              " Hacer pruebas con datos de ejemplo",
+              " Entrenar al equipo en el uso del sistema",
+              " Revisar seguridad de la información",
+              " Lanzar versión inicial con clientes prueba"
+            ],
+            "ventajas": [
+              "Seguimiento en tiempo real de deudas",
+              "Alertas automáticas por pagos atrasados",
+              "Cálculo automático de montos en dólares",
+              "Historial completo de transacciones",
+              "Reportes personalizados por cliente"
+            ]
+          }
+        },
+        {
+          "tipo": "conceptos",
+          "datos": {
+            "titulo": "Conceptos Clave",
+            "items": [
+              "Relaciones: Conectar tablas por ID único",
+              "Moneda: Conversión automática con tasas",
+              "Estados: Seguimiento de pagos (Pendiente/Completo)",
+              "Historial: Guardar cambios importantes",
+              "Seguridad: Proteger datos sensibles"
+            ]
+          }
+        },
+        {
+          "tipo": "casoExito",
+          "datos": {
+            "titulo": "Caso Real: Financiera CrediFácil",
+            "empresa": "Cooperativa de Ahorro CrediFácil",
+            "tecnologias": ["Sistema de cobranza", "Gestión de tasas"],
+            "resultados": [
+              "Reducción  en pagos atrasados",
+              "Cálculo automático de dolares tipos de moneda",
+              "Gestión centralizada de multiples clientes",
+              "Reportes automaticos"
+            ]
+          }
+        },
+        {
+          "tipo": "metodos",
+          "datos": {
+            "titulo": "Ejemplos de Uso Real",
+            "casos": [
+              "Bancos: Seguimiento de préstamos",
+              "Tiendas: Control de cuentas por cobrar",
+              "Servicios: Gestión de suscripciones",
+              "Gobiernos: Recaudación de impuestos",
+              "Educación: Control de pagos escolares"
+            ]
+          }
+        },
+        {
+          "tipo": "gallery",
+          "datos": {
+            "titulo": "Ejemplos Visuales",
+            "imagenes": [
+              "https://www.donusumdanismanlik.com/wp-content/uploads/Kanban-Sistemi-1024x573.png",
+              "https://dash.pejuang.net/wp-content/uploads/2020/04/unlock-all-your-team-kan-do-with-a-kanban-template-in-kanban-card-template-1024x628.jpg",
+              "https://www.typecalendar.com/wp-content/uploads/2023/05/kanban-board-jira.jpg?gid=216",
+              "https://i1.wp.com/distantjob.com/wp-content/uploads/2020/08/Kanban-Board.png?resize=1024%2C1024&ssl=1"
+            ]
+          }
+        },
+        {
+          "tipo": "conceptosImplantacion",
+          "datos": {
+            "titulo": "Recomendaciones Prácticas",
+            "items": [
+              "Hacer copias de seguridad diarias",
+              "Actualizar tasas de cambio automáticamente",
+              "Validar datos antes de registrar",
+              "Usar códigos de colores para estados",
+              "Revisar pagos antiguos cada mes"
+            ]
+          }
+        },
+        {
+          "tipo": "ejemplosKanban",
+          "datos": {
+            "titulo": "Flujos de Trabajo Comunes",
+            "tipos": [
+              {
+                "nombre": "Cobranza",
+                "columnas": ["Nuevo", "Contactar", "Negociar", "Pagar", "Archivar"]
+              },
+              {
+                "nombre": "Tasas",
+                "columnas": ["Investigación", "Calcular", "Aprobar", "Publicar"]
+              },
+              {
+                "nombre": "Clientes",
+                "columnas": ["Registrar", "Verificar", "Activar", "Renovar"]
+              }
+            ]
+          }
+        }
+      ],
+      "imagen": "https://cdnb.ganttpro.com/uploads/2022/01/metodo-kanban-sistema-kanban-modelo-kanban.png"
+    }
+  ]
+}
