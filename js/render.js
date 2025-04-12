@@ -378,6 +378,47 @@ class RenderManager {
       </div>
     `;
   }
+  renderKanban(data) {
+    return `
+      <section class="mb-12 space-y-8">
+        <!-- Encabezado con imagen -->
+        <div class="text-center space-y-4">
+          <h2 class="text-3xl font-bold text-gray-800">${data.imagen_titulo}</h2>
+          <img src="${data.imagen_url}" alt="Procesos Kanban" 
+               class="mx-auto rounded-lg shadow-md w-full max-w-2xl border border-gray-200">
+        </div>
+  
+        <!-- Grid de 4 columnas -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          ${data.secciones.map(seccion => `
+            <div class="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow 
+                       border border-gray-100 group">
+              <div class="space-y-4">
+                <!-- Ícono decorativo sutil -->
+                <div class="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center
+                           group-hover:bg-blue-100 transition-colors">
+                  <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                          d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/>
+                  </svg>
+                </div>
+                
+                <!-- Contenido -->
+                <h3 class="text-xl font-semibold text-gray-800 border-b pb-2">${seccion.titulo}</h3>
+                <p class="text-gray-600 leading-relaxed">${seccion.texto}</p>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+  
+        <!-- Nota adicional -->
+        <div class="mt-8 text-center text-sm text-gray-500 italic">
+          * Los tiempos de proceso pueden variar según la complejidad de las tareas
+        </div>
+      </section>
+    `;
+  }
 }
+
 
 document.addEventListener('DOMContentLoaded', () => new RenderManager());

@@ -1,4 +1,7 @@
-const acortarTexto = (texto, max = 300) => texto.length > max ? `${texto.substring(0, max)}...` : texto;
+const acortarTexto = (texto, max = 300) => {
+  if (!texto) return ''; // Validación para valores undefined/null
+  return texto.length > max ? `${texto.substring(0, max)}...` : texto;
+};
 
 const crearLista = (items) => `
   <ul class="list-disc pl-6 mb-4 space-y-2">
@@ -14,7 +17,7 @@ const Componentes = {
       </div>
       <div class="p-6">
         <h3 class="text-xl font-semibold text-gray-800 mb-3">${titulo}</h3>
-        <p class="text-gray-600 mb-4">${contenido}</p>
+        <p class="text-gray-600 mb-4">${acortarTexto(contenido || '')}</p> <!-- Aquí la validación -->
         <a href="detalle.html?id=${id}" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
           Ver análisis completo →
         </a>

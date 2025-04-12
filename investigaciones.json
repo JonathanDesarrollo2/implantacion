@@ -387,6 +387,38 @@
         }
       ],
       "imagen": "https://cdnb.ganttpro.com/uploads/2022/01/metodo-kanban-sistema-kanban-modelo-kanban.png"
+    }, {
+      "id": 3,
+      "titulo": "Sistema de Gestión de Deudas con Kanban",
+      "contenido": "Plataforma para seguimiento de pagos y tasas con visualización ágil",
+      "imagen": "https://th.bing.com/th/id/OIP.NCzCAh9hoJ-5-iXsvGzwAgHaEK?rs=1&pid=ImgDetMain",
+      "contenidoCompleto": [
+        {
+          "tipo": "kanban",
+          "datos": {
+            "imagen_titulo": "Procesos del Kanban",
+            "imagen_url": "./image.png",
+            "secciones": [
+              {
+                "titulo": "Explicación de pendientes",
+                "texto": "Las tareas aun en estadeo pendientes, son tareas aun no realizadas porque no demuestran una prioridad superior a las demas para avanzar en el proyecto, las rutas del backend aun no se encuentrand definidas, y aunque parte del front ya esta definido, siguen faltando las validaciones las cuales seran agregadas al tener una estructura un poco mas avanzada o solida"
+              },
+              {
+                "titulo": "Explicación de terminados",
+                "texto": "Tareas completadas y validadas. Listas para entrega final. son necesidades y tareas prioritarias para el avance en general del proyecto, por lo tanto se les da un puesto mas adelante en las tareas a llevar. "
+              },
+              {
+                "titulo": "Explicación de En revisión",
+                "texto": "Tareas en evaluación para asegurar calidad y cumplimiento. aun falta asegurar el funcionamiento de los End Points como el de Borrar, Leer, Actualizar y evidentemente crear, tarea la cual sera ajustada y verificada."
+              },
+              {
+                "titulo": "Explicación de En ejecución",
+                "texto": "Tareas en desarrollo activo, estas tareas actualmente se encuentran en desarrollo, para el avance del proyecto. "
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
