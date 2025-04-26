@@ -419,6 +419,38 @@
           }
         }
       ]
+    }, {
+      "id": 4,
+      "titulo": "Continuacion del sistema de seguimiento de pagos",
+      "contenido": "Plataforma para seguimiento de pagos y tasas con visualización ágil",
+      "imagen": "https://static.vecteezy.com/system/resources/previews/032/732/400/non_2x/kanban-icon-vector.jpg",
+      "contenidoCompleto": [
+        {
+          "tipo": "kanban",
+          "datos": {
+            "imagen_titulo": "Procesos del Kanban 2da entrega",
+            "imagen_url": "./image2.png",
+            "secciones": [
+              {
+                "titulo": "Explicación de pendientes",
+                "texto": "Para rectificar el correcto funcionamiento de los elementos del sistema, tendriamos que hacer unas pruebas exhaustivas para la busquead y deteccion de cualquier anomalia en la funcion. "
+              },
+              {
+                "titulo": "Explicación de terminados",
+                "texto": "Correcto funcionamiento de los campos para la ingresion de los datos, como se hablo en la clase, este es uno de los ultimos pasos a realizar. "
+              },
+              {
+                "titulo": "Explicación de En revisión",
+                "texto": "Terminar de realizar las pruebas y verificar el funcionamiento de las validaciones dentro del frontend para evitar cualquier tipo de error presente."
+              },
+              {
+                "titulo": "Explicación de En ejecución",
+                "texto": "Tareas en desarrollo activo, estas tareas actualmente se encuentran en desarrollo, para el avance del proyecto. "
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
