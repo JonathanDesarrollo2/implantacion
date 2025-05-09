@@ -389,7 +389,7 @@
       "imagen": "https://cdnb.ganttpro.com/uploads/2022/01/metodo-kanban-sistema-kanban-modelo-kanban.png"
     }, {
       "id": 3,
-      "titulo": "Sistema de Gestión de Deudas con Kanban",
+      "titulo": "Sistema de Gestión de Deudas con Kanban.",
       "contenido": "Plataforma para seguimiento de pagos y tasas con visualización ágil",
       "imagen": "https://th.bing.com/th/id/OIP.NCzCAh9hoJ-5-iXsvGzwAgHaEK?rs=1&pid=ImgDetMain",
       "contenidoCompleto": [
@@ -421,7 +421,7 @@
       ]
     }, {
       "id": 4,
-      "titulo": "Continuacion del sistema de seguimiento de pagos",
+      "titulo": "Continuacion del sistema de seguimiento de pagos.",
       "contenido": "Plataforma para seguimiento de pagos y tasas con visualización ágil",
       "imagen": "https://static.vecteezy.com/system/resources/previews/032/732/400/non_2x/kanban-icon-vector.jpg",
       "contenidoCompleto": [
@@ -446,6 +446,38 @@
               {
                 "titulo": "Explicación de En ejecución",
                 "texto": "Tareas en desarrollo activo, estas tareas actualmente se encuentran en desarrollo, para el avance del proyecto. "
+              }
+            ]
+          }
+        }
+      ]
+    }, {
+      "id": 5,
+      "titulo": "Continuacion del sistema de seguimiento de pagos, 3ra parte.",
+      "contenido": "Plataforma para seguimiento de pagos y tasas con visualización ágil",
+      "imagen": "https://static.vecteezy.com/system/resources/previews/008/150/484/original/application-form-filling-people-with-pencil-vector.jpg",
+      "contenidoCompleto": [
+        {
+          "tipo": "kanban",
+          "datos": {
+            "imagen_titulo": "Procesos del Kanban 2da entrega",
+            "imagen_url": "./image3.png",
+            "secciones": [
+              {
+                "titulo": "Explicación de pendientes",
+                "texto": "Despues de la revision del ultimo encuentro, se señalaron los siguientes objetivos a tener en consideracion los cuales seran realizar en el menos tiempo posible. "
+              },
+              {
+                "titulo": "Explicación de terminados",
+                "texto": "Se eliminaron multiples tareas debido a que ya se encontraban en su mayoria, tareas ya terminadas tanto viejas como nuevas. "
+              },
+              {
+                "titulo": "Explicación de En revisión",
+                "texto": "Con la idea de validar los datos y ver su correcto funcionamiento, solo se requiere unas ultimas revisiones."
+              },
+              {
+                "titulo": "Explicación de En ejecución",
+                "texto": "Aun puede estar bajo futuros cambios, pero el estilo visual que se señalo, ha sido cambiado y mejorado para un disfrute visual y mas comodo a la vista. "
               }
             ]
           }
