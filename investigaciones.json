@@ -483,6 +483,38 @@
           }
         }
       ]
+    }, {
+      "id": 6,
+      "titulo": "Ultimas revision del sistema de manejo de deudas.",
+      "contenido": "Plataforma para seguimiento de pagos y tasas con visualización ágil",
+      "imagen": "https://static.vecteezy.com/system/resources/previews/008/150/484/original/application-form-filling-people-with-pencil-vector.jpg",
+      "contenidoCompleto": [
+        {
+          "tipo": "kanban",
+          "datos": {
+            "imagen_titulo": "Procesos del Kanban 2da entrega",
+            "imagen_url": "./image4.png",
+            "secciones": [
+              {
+                "titulo": "Explicación de pendientes",
+                "texto": "Tras la nueva discusion sobre las actualizaciones y faltantes de el sistema, se dejo en claro unas unicas y ultimas tareas pronto realizadas. "
+              },
+              {
+                "titulo": "Explicación de terminados",
+                "texto": "Nuevamente para una lista mas corta se eliminaron anteriores tareas y se verificaron multiples de las anteriores. "
+              },
+              {
+                "titulo": "Explicación de En revisión",
+                "texto": "Terminados los formularios de actualizacion, solo estarian por terminar unos ultimos."
+              },
+              {
+                "titulo": "Explicación de En ejecución",
+                "texto": "Aun puede estar bajo futuros cambios, pero el estilo visual que se señalo, ha sido cambiado y mejorado para un disfrute visual y mas comodo a la vista. "
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
