@@ -486,8 +486,8 @@
     }, {
       "id": 6,
       "titulo": "Ultimas revision del sistema de manejo de deudas.",
-      "contenido": "Plataforma para seguimiento de pagos y tasas con visualización ágil",
-      "imagen": "https://info.netcommerce.mx/wp-content/uploads/2017/01/Rich-Snippets.png",
+      "contenido": "Plataforma para seguimiento de pagos y tasas con visualización ágil", 
+      "imagen": "https://info.netcommerce.mx/wp-content/uploads/2017/01/Rich-Snippets.png" ,
       "contenidoCompleto": [
         {
           "tipo": "kanban",
